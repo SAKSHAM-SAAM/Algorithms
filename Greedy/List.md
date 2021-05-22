@@ -3,7 +3,7 @@
 <ul>
     <li>-[X] Activity Selection Problem</li>
     <li>-[ ] Kruskal’s Minimum Spanning Tree Algorithm</li>
-    <li>-[X] Huffman Coding</li>
+    <li><b>-[X] </b>Huffman Coding</li>
     <li>-[ ] Efficient Huffman Coding for Sorted Input</li>
     <li>-[ ] Prim’s Minimum Spanning Tree Algorithm</li>
     <li>-[ ] Prim’s MST for Adjacency List Representation</li>
