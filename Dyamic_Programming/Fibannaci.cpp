@@ -1,14 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
-/* recursive 
+/* recursive  
+// Recursive solution given for reference 
+// takes exponential time  
+
 int recur(int n)
 {
     if(n==1 || n==0) return 1;
     else return recur(n-1)+recur(n-2);
 }
+
 */
 // Dynamic Programming
 // using memoization
+// top down approach 
+// we calculate answer from N to 0 (from top to bottom number applicable)
 int util(vector<int> &dp,int x)
 {
     if(dp[x]==-1)
