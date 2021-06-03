@@ -22,9 +22,9 @@ void solve()
     int wt[n];
     for(int i=0;i<n;i++)
     {
-        cin>>arr[i]>>wt[i];
+        cin>>val[i]>>wt[i];
     }
-    int cap;cin>>cap
+    int cap;cin>>cap;
     int profit=knapsack(val,wt,cap,n);
     cout<<profit<<endl;
 }
